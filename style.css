@@ -1,3 +1,10 @@
+body {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .content {
   border: 1px solid black;
   background-color: rgb(212, 210, 210);
@@ -5,9 +12,13 @@
   padding: 0.8rem;
   margin-bottom: 1rem;
   font-size: 2rem;
+  max-width: 400px;
+  box-sizing: border-box;
 }
 
 button {
   font-size: 1.3rem;
   margin-bottom: 1rem;
+  max-width: 400px;
+  box-sizing: border-box;
 }
